@@ -5,13 +5,15 @@ form{
     border-radius: 10px;
 }
 label{
+    display: block;
     width: 100vw;
-    margin: 20px 150px;
+    margin: auto;
     color: white;
 }
 input{
+    display: block;
     width: auto;
-    margin: 10px 80px;
+    margin: auto;
     border-radius: 10px ;
     border: 2px solid yellowgreen;
 }
@@ -19,7 +21,8 @@ input{
     background-color: aqua;
 }
 textarea{
-    margin: 10px 80px;
+    display: block;
+    margin: auto;
     width: 175px;
     border: 2px solid yellowgreen;
     border-radius: 10px;
