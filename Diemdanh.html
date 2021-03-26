@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<style>
+    body{
+        background-image: url(https://img3.thuthuatphanmem.vn/uploads/2019/06/13/anh-nen-may-tinh-dep_095242594.jpg);
+    }
+</style>
+<body>
+    <form action="https://604f548bc20143001744cc5c.mockapi.io/submit/diemdanh" method="POST" target="_top">
+        <label class="required">Ten</label>
+        <input type="text" name="Ten" minlength="2" maxlength="30" required>
+        <label class="required">MSSV</label>
+        <input type="number" name="MSSV" required>
+        <label class="required">MaBiMat</label>
+        <input type="text" name="MaBiMat" required>
+        <label class="required">Email</label>
+        <input type="email" name="Email" required>
+        <label class="required">Phone</label>
+        <input type="tel" name="Phone" required>
+        <label class="required">HTML</label>
+        <textarea name="HTML" cols="30" rows="10"></textarea>
+        <input class="ip1" type="submit" value="Submit">
+        <input class="ip2" type="reset">
+    </form>
+</body>
+</html>
